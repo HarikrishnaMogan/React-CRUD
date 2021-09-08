@@ -1,17 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from "./App";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />
+  ,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+/*
+Sep 08, 2021
+————————
+
+Session Link:  
+https://us02web.zoom.us/meeting/register/tZctf-2hrjgrHNQK-q8xAZbjDhIZ9Lh4Kyu2
+
+Feedback Link : 
+https://forms.gle/ZK4fYJPa9vxdQsei8
+
+References :
+https://www.postman.com/downloads/
+https://www.npmjs.com/package/axios
+https://jsonplaceholder.typicode.com/
+
+Topics :
+1. API calls using axios
+2. CRUD app using React*/
